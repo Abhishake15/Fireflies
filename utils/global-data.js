@@ -1,7 +1,7 @@
 export const getGlobalData = () => {
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
-    : 'Abhishek Agarwal';
+    : 'By Abhishek Agarwal';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
     : 'World Of Insects';
@@ -10,8 +10,8 @@ export const getGlobalData = () => {
     : 'All rights reserved.';
 
   return {
-    name,
     blogTitle,
+    name,
     footerText,
   };
 };
