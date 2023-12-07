@@ -10,8 +10,8 @@ export const getGlobalData = () => {
     : 'By Abhishek Agarwal.';
 
   return {
-    name,
     blogTitle,
+    name,
     footerText,
   };
 };
